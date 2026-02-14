@@ -1,6 +1,6 @@
 START
-READ a
 
+    READ a
     IF a == 0 THEN
         PRINT "Not quadratic equation."
     ELSE
