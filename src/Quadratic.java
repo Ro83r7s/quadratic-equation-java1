@@ -23,8 +23,7 @@ public class Quadratic {
         if (a == 0) {
             System.out.println("Not quadratic equation!");
         }
-        else
-        {
+        else {
             // Input for remaining values if 'a' is valid
             System.out.print("input b: ");
             b = input.nextDouble();
@@ -40,7 +39,8 @@ public class Quadratic {
                 // If D is 0, there is exactly one real root (or two identical ones)
                 System.out.println("Two equal roots.");
 
-            } else if (D > 0) {
+            }
+            else if (D > 0) {
                 // If D is positive, calculate two distinct real roots using the quadratic formula
                 double x1;
                 double x2;
@@ -48,7 +48,8 @@ public class Quadratic {
                 x2 = (-b - Math.sqrt(D)) / (2 * a);
                 System.out.println("Two different roots x1=" + x1 + " and x2=" + x2);
 
-            } else {
+            }
+            else {
                 // If D is negative, there aren't real roots.
                 System.out.println("No real roots.");
             }
